@@ -31,9 +31,9 @@ This project implements a Twitter Sentiment Analysis system that classifies twee
 
 Install the necessary dependencies using:
 
-    '''bash
+    ```bash
     pip install kaggle pandas numpy nltk scikit-learn
-    '''
+    ```
 
 ## Steps Implemented
 
@@ -77,7 +77,7 @@ Usage
 
 Running the Model on a Sample Tweet
 
-    '''python
+    ```python
     import pickle
     
     # Load the trained model
@@ -91,7 +91,7 @@ Running the Model on a Sample Tweet
         print("Negative Tweet")
     else:
         print("Positive Tweet")
-    '''
+    ```
 
 ## Conclusion
 
