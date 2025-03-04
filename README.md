@@ -105,7 +105,7 @@ Enhance preprocessing by handling emoji-based sentiments.
 
 Deploy as a web application for real-time analysis.
 
-Author
+## Author
 
 Deepak
 
