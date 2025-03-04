@@ -33,6 +33,7 @@ Install the necessary dependencies using:
 
     ```bash
     pip install kaggle pandas numpy nltk scikit-learn
+    ```
 
 ## Steps Implemented
 
@@ -90,6 +91,7 @@ Running the Model on a Sample Tweet
         print("Negative Tweet")
     else:
         print("Positive Tweet")
+    ```
 
 ## Conclusion
 
