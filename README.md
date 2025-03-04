@@ -31,9 +31,8 @@ This project implements a Twitter Sentiment Analysis system that classifies twee
 
 Install the necessary dependencies using:
 
-    ```
-    pip install kaggle pandas numpy nltk scikit-learn
-    ```
+    ```bash
+pip install kaggle pandas numpy nltk scikit-learn
 
 ## Steps Implemented
 
@@ -77,21 +76,20 @@ Usage
 
 Running the Model on a Sample Tweet
 
-    ```
-    import pickle
-    
-    # Load the trained model
-    model = pickle.load(open('trained_model.sav', 'rb'))
-    
-    # Predict sentiment for a new tweet
-    new_tweet = ["I love this product! It's amazing!"]
-    prediction = model.predict(new_tweet)
-    
-    if prediction[0] == 0:
-        print("Negative Tweet")
-    else:
-        print("Positive Tweet")
-    ```
+    ```python
+import pickle
+
+# Load the trained model
+model = pickle.load(open('trained_model.sav', 'rb'))
+
+# Predict sentiment for a new tweet
+new_tweet = ["I love this product! It's amazing!"]
+prediction = model.predict(new_tweet)
+
+if prediction[0] == 0:
+    print("Negative Tweet")
+else:
+    print("Positive Tweet")
 
 ## Conclusion
 
