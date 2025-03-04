@@ -39,43 +39,43 @@ Install the necessary dependencies using:
 
 ### 1. Data Preprocessing
 
-**Stemming**: Reducing words to their root forms using PorterStemmer.
-
-**Stopword Removal**: Removing common words that do not add meaning.
-
-**Text Cleaning**: Removing non-alphabetic characters.
-
-**Label Conversion**: Changing 4 labels to 1.
+  **Stemming**: Reducing words to their root forms using PorterStemmer.
+  
+  **Stopword Removal**: Removing common words that do not add meaning.
+  
+  **Text Cleaning**: Removing non-alphabetic characters.
+  
+  **Label Conversion**: Changing 4 labels to 1.
 
 ### 2. Feature Extraction
 
-Converting text data into numerical form using TF-IDF Vectorization.
+  Converting text data into numerical form using TF-IDF Vectorization.
 
 ### 3. Splitting Data
 
-The dataset is split into training (80%) and testing (20%) sets.
+  The dataset is split into training (80%) and testing (20%) sets.
 
 ### 4. Model Training
 
-Logistic Regression is used as the classification model.
+  Logistic Regression is used as the classification model.
 
-The model is trained on the TF-IDF-transformed data.
+  The model is trained on the TF-IDF-transformed data.
 
 ### 5. Model Evaluation
 
-Accuracy score on training data: **80.2%**
+  Accuracy score on training data: **80.2%**
 
-Accuracy score on test data: **77.6%**
+  Accuracy score on test data: **77.6%**
 
 ### 6. Saving & Reusing the Model
 
-The trained model is saved using pickle.
+  The trained model is saved using pickle.
 
-The model can be reloaded and used for predicting sentiment on new tweets.
+  The model can be reloaded and used for predicting sentiment on new tweets.
 
-Usage
+## Usage
 
-Running the Model on a Sample Tweet
+### Running the Model on a Sample Tweet
 
     ```python
     import pickle
